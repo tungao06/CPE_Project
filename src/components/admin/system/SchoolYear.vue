@@ -59,6 +59,7 @@ export default {
     this.$store.dispatch("updateYear", this.years);
   },
   methods: {
+     /* eslint-disable no-console */
     getStatus(status) {
       if (status) return "green";
       return "red";

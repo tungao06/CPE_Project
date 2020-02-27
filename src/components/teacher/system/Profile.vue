@@ -124,6 +124,7 @@ export default {
     };
   },
     methods: {
+       /* eslint-disable no-console */
       addProfessional: function () {
         this.professionals.push({ value: '' });
          console.log(this.professionals);

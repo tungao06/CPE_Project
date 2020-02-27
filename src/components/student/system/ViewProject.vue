@@ -26,11 +26,11 @@ import firebase from "firebase";
 export default {
   data() {
     return {
-      result: {},
+      result: [],
       profiles: [],
       regis: [],
-      register: {},
-      teacher: {}
+      register: [],
+      teacher: []
     };
   },
   created() {

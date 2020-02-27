@@ -107,7 +107,9 @@ export default {
     return {
       drawer: null,
       //messages: 2,
-      noticeStatus:[],
+      noticeStatus:[{
+        status: false,
+      }],
       user:this.$store.getters.getUser
     };
   },
@@ -126,7 +128,7 @@ export default {
           id: snapshot.key,
           ...snapshot.val()
         });
-        console.log(this.noticeStatus);
+     
         
       }
     })

@@ -86,6 +86,7 @@ export default {
     };
   },
   methods: {
+     /* eslint-disable no-console */
     importData: function() {
       if (this.fileInput.length > 0) {
         this.fileInput.forEach(data => {

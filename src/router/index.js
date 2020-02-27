@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 // unauthentication components
-import Home from '../components/Home'
+
 import LoginStudent from '../components/LoginStudent'
 import LoginTeacher from '../components/LoginTeacher'
 import AllNotice from '../components/AllNotice'
@@ -40,11 +40,7 @@ export default new Router({
     routes: [
         {
             path: '/',
-            redirect: '/home',
-        },
-        {
-            path: '/home',
-            component: Home
+            redirect: '/slogin',
         },
         {
             path: '/slogin',

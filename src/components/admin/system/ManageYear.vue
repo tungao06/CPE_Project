@@ -85,6 +85,7 @@ export default {
     };
   },
   methods: {
+     /* eslint-disable no-console */
     getYear: function(year) {
       this.$store.commit("setSchoolYear", year);
     },

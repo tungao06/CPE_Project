@@ -72,6 +72,7 @@ export default {
       });
   },
   methods: {
+     /* eslint-disable no-console */
     addTeacher: async function() {
       await firebase
         .database()

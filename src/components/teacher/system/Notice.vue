@@ -134,6 +134,7 @@ export default {
     };
   },
   methods: {
+     /* eslint-disable no-console */
     storeMessage: function() {
       const messageData1 ={
           title: this.title,

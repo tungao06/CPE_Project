@@ -72,6 +72,7 @@ export default {
     };
   },
   methods:{
+     /* eslint-disable no-console */
     showList:function(){
        this.$store.commit("setLoading", true);
        this.studentRegister = [];

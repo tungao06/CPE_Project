@@ -46,6 +46,7 @@ export default {
     };
   },
   methods: {
+     /* eslint-disable no-console */
     login: function (user) {
       this.$store.dispatch('loginTeacher', user)
     }
